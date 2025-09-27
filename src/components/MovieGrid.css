@@ -1,0 +1,100 @@
+.movie-section {
+  padding: 2rem;
+}
+
+.movie-section h1 {
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 200px;
+  border: 1px solid #494949ff;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: #111;
+  transition: transform 0.2s ease-in-out;
+  text-decoration: none;
+  color: inherit;    
+  display: block;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie-info {
+  padding: 0.5rem;
+}
+
+.movie-info h2 {
+  font-size: 1rem;
+  margin: 0.2rem 0;
+}
+
+.movie-info p {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+.star-icon {
+  color: #FFD700;
+  vertical-align: middle;
+  margin-right: 0.25rem;
+}
+.movie-section h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.filters select {
+  padding: 0.5rem 1rem;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: 1px solid #444;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.filters select:hover,
+.filters select:focus {
+  border-color: #1e6fff;
+  outline: none;
+}
+.favorite-btn {
+
+  margin-left: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+}

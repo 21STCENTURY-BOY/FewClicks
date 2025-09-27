@@ -1,0 +1,60 @@
+.movie-detail-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.movie-poster img {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+}
+
+.no-poster {
+  width: 300px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #888;
+}
+
+.movie-info {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.movie-info h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.movie-info .rating {
+  color: #ffcc00;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.movie-info .release-date,
+.movie-info .runtime,
+.movie-info .genres {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.movie-info .overview {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #eee;
+}
